@@ -1,0 +1,631 @@
+<!doctype html>
+<html lang="ita">
+<head>
+    <meta charset="utf-8" />
+
+<title> Progetto 2 </title>
+
+        <link rel="stylesheet" href="Stile.css" media="all"/>
+		<script type="text/javascript" src="Java.script"> </script>    <!-- comando per introdurre un documento file.script-->
+		<!-- comando per aggiugnere icon all'intetazione della pagina -->
+		<link rel="website icon" type="webp" href="C:\Users\UTENTE\Desktop\School\4 inf serale\HTML - Javascript\First flight\volo.webp" />
+
+<script type="text/javascript">
+
+</script>
+</head>
+<body onload="avanti()">
+
+
+    <aside id="Sezione_Aside">
+
+		<br>
+
+    <table border="0">
+
+	    <tr>
+	        <td> <input type="button" value="&#9776" class="Input" onclick="Saluto()"> <i style="font-size:19px; color:white;"> Benvenuti </i> </input> </td>
+
+
+
+		</tr>
+
+	</table>
+
+	<br>
+
+	    <input class="input" type="button" value="Clicca qui"  onclick="Prima_Funzione()"> </input>
+
+	        <br><br><br><br>
+
+			<table border="0" class="Login">
+
+			    <tr>
+		            <td> &#x1F464;  </td>
+                    <td> <a href="http://localhost/Accedi.php" id="link" target="_blank"> Accedi </a> </td>
+                </tr>
+
+			</table>
+
+			        <hr/ id="hr1">
+
+	<table border="0" id="table">
+
+            <tr>
+			    <td> &#9992;&#65039; </td>
+	           <td> <a href="file:///D:/HTML%20-%20Javascript/First%20flight/Accedi.html" id="link"> Voli </a> </td>
+	        </tr>
+
+
+	           <tr>
+			        <td> &#x1F698; </td>
+	                <td> <a href="" id="link"> Autonoleggio </a> </td>
+	            </tr>
+
+			        <tr>
+			            <td> &#128719;&#65039; </td>
+	                    <td> <a href="" id="link"> Hotel </a> </td>
+	                </tr>
+
+					    <tr>
+			                <td> &#128644; </td>
+	                        <td> <a href="" id="link"> Corsie </a> </td>
+	                </tr>
+	</table>
+
+	<hr/>
+	                    <table border="0" id="table">
+
+			             <tr>
+		                     <td> &#127760;  </td>
+                             <td> <a href="" id="link"> Explore </a> </td>
+                         </tr>
+
+			            </table>
+
+
+	                    <table border="0" id="table">
+
+			             <tr>
+		                     <td> &#10060;  </td>
+                             <td> <a href="" id="link"> Exit </a> </td>
+                         </tr>
+
+			            </table>
+
+		<br><br>
+
+					<p id="Info rimborsi"> </p>
+
+						<img src="Rimborso.jpg" title="Rimborso" id="Immagine_Aside"/>
+
+				        <p> Con noi avrete fino al 50% di rimborso su tutti i voli fuori dall'Europa </p>
+
+				<hr/>
+
+				            <img src="Info_Covid.jpg" title="Info Covid-19" id="Immagine_Aside"/>
+
+				                <p> Con noi sarete sempre aggiornato su tutte le novità della pandemia dovuta al Covid-19 </p>
+
+				<hr/>
+
+
+
+				                    <img src="Viaggi in tutto il mondo.jpg" title="Viaggi in tutto il mondo" id="Immagine_Aside"/>
+
+				                        <p> Potrete viaggiare in tutto il mondo, consulta il sito per vedere le prossime partenze.</p>
+				<hr/>
+
+
+
+						                    <img src="Professionalità di volo.jpg" title="Professionalità di volo"  id="Immagine_Aside"/>
+
+				                                <p> Troverete piloti professionisti e preparati appositamente per garantirvi un volo sicuro e preponti per qualunque esigenza.  </p>
+
+			    <hr/>
+
+
+				                                        <img src="Hostes.jpg" title="Hostes" id="Immagine_Aside"/>
+
+				                                            <p> Possiamo garantirvi Hostes professionali per i vostri figli minori di 6 anni. </p>
+
+				<hr/>
+
+
+
+				                                                <img src="check-in online.jpg" title="check-in online" id="Immagine_Aside"/>
+
+				                                                    <p> Da oggi sarà disponibile effettuare il check-in online anche direttamente dal nostro sito. </p>
+
+				<hr/>
+
+
+
+				                                                        <img src="Sconti.jfif" title="Sconto per il mio cliente" id="Immagine_Aside"/>
+
+				                                                            <p> Sei un nostro nuovo cliente? Allora avrai il 5% di sconto sul tuo primo volo.
+																			    Applicabile all'aquisto del biglietto. <br> <b> Warning! </b> Lo sconto sarà applicabile solo per il primo volo,
+																				per avere altre promozione è consigliabile rimanere aggiornati col sito. </p>
+
+				<hr/>
+
+
+					                                                                <img src="Low cost.jpg" title="Voli low cost" id="Immagine_Aside"/>
+
+				                                                                       <p> Da oggi è possibile prenotare voli Low cost, a prezzi molto ridotti rispetto ai soliti voi. </p>
+
+
+				<hr/>
+
+
+					                                                                    <img src="Assistenza.jpg" title="Assitenza clienti" style="height:110px; width:100%;"/>
+
+
+	</aside>
+
+<header>
+
+    <div class="Primo_contenitore">
+
+
+
+        <table border="0" class="Table">
+
+		<tr>
+
+		    <td> <h2 class="Name_profilo"> First flight</h2> </td>
+
+		</tr>
+
+		    <tr>
+
+			        <td> <marquee scrollamount = "9"> <h1 class="Scroll"> <i> Benvenuti nella pagina di prenotazione e assistenza di volo </i> </h1> </marquee>
+
+
+			        </td>
+
+
+				<td>
+				    <select id="Colonna">
+				            <optgroup label="Lingue Europee">
+                                    <option value="Lingua 1"> Italia </option>
+                                    <option value="Lingua 2"> English </option>
+									<option value="Lingua 3"> Spagna </option>
+                            </optgroup>
+                                       <optgroup label="Altro">
+                                               <option value="Lingua 4"> Cina </option>
+                                               <option value="Lingua 5"> Brasile </option>
+                                       </optgroup>
+                     </select>
+			    </td>
+			</tr>
+		</table>
+
+
+
+		        <nav id="nav2">            <!-- Seganlibro -->  <p id="lorem"> </p>
+                <ul class="lista">
+					<li> <a href="#Data e orari"> Data e orari </a> </li>
+					<li> <a href="#Info rimborsi"> Info rimborsi </a> </li>
+					<li> <a href="#Servizio clienti"> Servizio clienti </a> </li>
+		        </ul>
+		    </nav>
+
+
+	    <div style="border-radius:65px; background-color:#E6E6FA; height:159px; width:65%;  margin-left:340px;">
+
+
+
+    <form action="URL-script" method="post">
+
+            <br>
+
+<table border="0" style="margin-right:100px; padding-left:235px; ">
+
+
+<tr>
+
+    <td id="Colonne"> <a href="#" id="link2"> Info voli </a> </td>
+	    <td id="Colonne" > <a href="##" id="link2"> Check-In </a> </td>
+			<td id="Colonne"> <a href="###" id="link2"> Prenota volo </a> </td>
+
+
+</tr>
+
+
+
+<tr>
+    <td>
+        <input type="radio" value="Andata" name="Pulsante" checked> Solo andata 🛫 </input>
+    </td>
+
+	    <td>
+	        <input type="radio" value="Andata" name="Pulsante"> Andata e ritorno &#x1F6EC; </input>
+	    </td>
+
+
+</tr>
+
+<tr>
+    <td>
+	    <input placeholder="Destinazione per.." name="Prima-richiesta" rows="1" cols="27"> </input>
+	</td>
+
+	<td>
+	   <input placeholder="Ritorno dal.." name="Prima-richiesta" rows="1" cols="29"> </input>
+	</td>
+
+	    <td>
+			<input value="Cerca" type="submit" > </input>
+			<input value="Cancella dati"  type="reset"> </input>
+		</td>
+
+
+</tr>
+
+
+        <tr>
+
+		    <td>
+
+			   <input name="data per solo andata" type="date"> </input> <br> <!-- prendere appunti sul attributo *type* -->
+
+			</td>
+
+
+			     <td>
+
+			        <input name="data per il ritorno" type="date"> </input>
+
+			     </td>
+
+				        <td>
+
+						    <select>
+
+				                <optgroup label="Numero adulti">
+                                        <option value="Numero adulti_1"> 1 adulto </option>
+									    <option value="Numero adulti_2"> 2 adulti </option>
+										<option value="Numero adulti_3"> 3 adulti </option>
+                                </optgroup>
+
+
+								    <optgroup label="Numero bambini">
+                                        <option value="Numero bambini_1"> 1 bambino </option>
+                                    	<option value="Numero bambini_2"> 2 bambini </option>
+										<option value="Numero bambini_3"> 3 bambini </option>
+									</optgroup>
+		                    </select>
+
+						</td>
+
+		</tr>
+
+        </table>
+
+    </form>
+
+</div>
+
+
+    </div>
+
+
+</header>
+
+
+    <section>
+	    <article class="Articol_1">
+
+
+
+
+
+	        <table border="1" align="center">
+
+
+
+	    <br><br>
+
+		<p id="Data e orari">
+
+            <tr>
+	            <th colspan="7"> ORARIO SETTIMANALE DI VOLO  </th>
+			</tr>
+
+				<tr>
+	                <th> Luned&igrave </th>
+	                <th> Marted&igrave </th>
+	                <th> Mercoled&igrave </th>
+	                <th> Gioved&igrave </th>
+	                <th> Venerd&igrave </th>
+					<th> Sabato </th>
+					<th> Domenica </th>
+	            </tr>
+
+			        <tr>
+	                    <td> Palermo </td>
+	                    <td> Milano </td>
+	                    <td> Berlino </td>
+	                    <td> Marsiglia </td>
+	                    <td> Catania </td>
+						<td> Roma </td>
+	                    <td> Giappone </td>
+	                </tr>
+
+					    <tr>
+	                        <td> Madrid </td>
+	                        <td> Rio </td>
+	                        <td> Stoccolma </td>
+	                        <td> Tokyo </td>
+	                        <td> Düsseldorf </td>
+							<td> Colonia </td>
+	                        <td> Nizza </td>
+	                    </tr>
+
+	                        <tr>
+	                            <td> Valencia </td>
+	                            <td> Rouen </td>
+	                            <td> Cina </td>
+	                            <td> Barcellona </td>
+	                            <td> Siviglia </td>
+								<td> Londra </td>
+	                            <td> Liverpool </td>
+	                        </tr>
+
+							    <tr>
+	                                <td> Parigi </td>
+	                                <td> Avignone </td>
+								    <td> Atene </td>
+								    <td> Delfi </td>
+								    <td> Amsterdam </td>
+								    <td> Nairobi </td>
+								    <td> Helsinki </td>
+								</tr>
+
+
+
+            </table>
+
+	<h1 style="text-align:center; font-size:21px;"> Questo è il calendario con tutti i voli presenti di questa settimana. <br>
+                                                    Afrettati a prenotare il tuo volo prima che i posti si esauriscano!!  </h2>
+
+	<table border="0">
+
+	    <tr>
+
+			<td> <h1 style="color:red; font-size:22px; margin-left:115px;"> Warning: </h1> </td>
+		    <td> <h3> A causa dell'emergenza Covid-19 alcuni voli potrebbero essere cancellati! <a href="***" class="tag_a"> Per info rimborsi clicca qui </a> </h3> </td>
+
+		</tr>
+
+	</table>
+
+		</article>
+
+		        <article class="Articol_2">
+
+				<br>
+					<p class="paragrafo"> <i> Passa sopra col mouse per visualizzare le informazioni delle varie citta e regioni. </i> </p>
+
+				    <br>
+
+				    <table border="0">
+
+					    <tr>
+
+						    <td style="width:33.8%;"> <a href="https://it.latuaitalia.ru/where-to-go/10-ragioni-per-visitare-la-sicilia/" target="_blank"> <img onmouseover="VisualizzaTesto('<i> <b> Palermo</b> </i>, capoluogo della regione Sicilia, è una città stupenda <b>situata al centro del Mediterraneo</b>.  Le origini di questa città sono molto antiche e a testimoniarlo è il ritrovamento di alcune incisioni rupestri che probabilmente risalgono a <b>paleolitica</b>. ')"
+							    src="Cattedrale_di_Palermo.jpeg" alt="Cattedrale di Palermo" title="CLicca qui per informazioni" id="img" > </a>
+							</td>
+
+
+							<td style="width:33.8%;"> <a target="_blank" title="CLicca per informazioni su Madrid"
+							    href="https://travel.fanpage.it/il-tuo-prossimo-viaggio-deve-essere-madrid-ecco-6-motivi/#:~:text=Madrid%20%C3%A8%20tra%20le%20citt%C3%A0,per%20visitare%20la%20capitale%20spagnola."> <img src="Madrid.jpg" alt ="Madrid" id="img" onmouseover="TestoMadrid('<i> <b> Madrid</b> </i> è tra le città europee più vivaci, ricca di divertimenti ed attrazioni sia di giorno che di notte. Arte, cultura, ottimo cibo, movida e divertimento, sono alcuni dei motivi per visitare la capitale spagnola')" > </a>
+							</td>
+
+
+							<td style="width:33.8%;">  <a href="https://www.parigi.it/it/cosa_vedere_a_parigi.php" target="_blank"  title="Per informazioni su Parigi clicca qui."> <img src="Parigi.jpg" alt ="Parigi" id="img"
+							    onmouseover="TestoParigi('<i> <b> Parigi </b> </i> è innegabilmente una città dai tanti primati, il cui fascino è difficile da eguagliare. Parigi è da sempre considerata <b>la città più romantica ed elegante</b>, oltre che la capitale dell’arte e della moda. Ma non solo. I motivi per visitare Parigi sono davvero tanti, per cui vale sempre la pena andarci.')"> </a>
+							</td>
+
+						</tr>
+
+						        <tr>
+
+								    <td id="Descrizione" >  </td>
+								    <td id="Scritta"> </td>
+								    <td id="TestoP"> </td>
+
+								</tr>
+
+
+								        <tr>
+
+										   <td style="width:33.8%;"> <a target="_blank" title="CLicca per informazioni sulla città di Londra"
+										   href="https://londonita.com/10-motivi-per-visitare-londra/"> <img src="Londra.jpg" alt ="Londra" id="img" onmouseover="TestoLondra('<i> <b> Londra</b> </i> è una città in costante movimento e in continua espansione. Molti se ne innamorano grazie al suo <b>fascino</b> e alla sua varietà di <b>attività e opportunità</b>. Se ancora non lo avete fatto, visitatela.')" > </a>
+
+										   </td>
+
+										   <td style="width:33.8%;"> <a target="_blank" title="CLicca per informazioni sull Giappone"
+										   href="https://siviaggia.it/idee-di-viaggio/giappone-cosa-visitare-e-consigli-di-viaggio/228828/"> <img src="Giappone.jpg" alt ="Giappone" id="img" onmouseover="TestoG('Il <i> <b> Giappone </b> </i> è uno dei paesi più affascinanti del mondo, custode di una <b>cultura millenaria</b>, <b>ricca di storia e mistero</b>. Si tratta di un viaggio unico alla scoperta di grandi metropoli come <b>Tokyo e Kyoto</b>, dei paesaggi montuosi del Monte Fuji, delle meravigliose località del nord e delle zone costiere del sud del Giappone.')" > </a>
+										   </td>
+
+										    <td style="width:33.8%;"> <a target="_blank" title="CLicca per informazioni su Roma"
+										   href="https://www.ristorantearlu.it/2018/06/11/5-motivi-per-visitare-roma/"> <img src="Roma.jpg" alt ="Rome" id="img" onmouseover="TestoRoma('<i> <b> Roma</b> </i>, chiamata  <b>città eterna</b>, è una <b>meta davvero imperdibile</b>, invidiata ovunque nel mondo. La città ospita alcuni fra i monumenti più suggestivi e interessanti del mondo, ma offre anche tante altre attività che non potete davvero lasciarvi scappare. Partendo quindi dai monumenti, per arrivare alle <b>prelibatezze del territorio romano</b>,')" > </a>
+										   </td>
+
+										</tr>
+
+
+						                    <tr>
+
+												<td id="TestoLondon"> </td>
+												<td id="IdGiappone"> </td>
+												<td id="TestoRome"> </td>
+
+											</tr>
+
+
+					</table>
+
+
+
+
+
+				</article>
+
+
+				        <article class="Articol_3">
+
+						<br><br>
+
+				<h2 class="Scritta"> Ecco un suggerimento su quale regione visitare! </h2>
+
+	                         <img src="Regione.png" usemap="#image-map" style="margin-left:340px;">
+
+                                <map name="image-map">
+
+                                    <area target="_blank" alt="Sicilia" title="Sicilia" href="https://it.wikipedia.org/wiki/Sicilia" coords="255,395,258,438,336,454,349,387"
+									    shape="poly" onmouseover="Mappuse('La Sicilia, un logo pieno di mare e sole.')">
+                                            <area target="_blank" alt="Sardegna" title="Sardegna" href="https://it.wikipedia.org/wiki/Sardegna"
+											     onmouseover="Mappuse('La Sardegna, una isola distaccata dal Italia.')" coords="137,375,134,284,191,277,185,371" shape="poly">
+  												    <area target="_blank" alt="Calabria" title="Calabria" href="https://it.wikipedia.org/wiki/Calabria"
+													 onmouseover="Mappuse('La Calabria, è una regione bruciata dal sole con aspre montagne, paesini antichi e una spettacolare costa con molte spiagge rinomate. .')" coords="352,329,352,408,401,358,372,328" shape="poly">
+	                                                    <area target="_blank" alt="Basilicata" title="Basilicata" href="https://it.wikipedia.org/wiki/Basilica"
+														onmouseover="Mappuse('La Basilicata, è anche nota come Lucania, che fu la denominazione ufficiale dal 1932 al 1947, oltre a identificare un antica regione dai confini differenti che inglobava gran parte dell odierno territorio.')" coords="346,285,353,330,385,314,383,307" shape="poly">
+	                                                        <area target="_blank" alt="Puglia" title="Puglia" href="https://it.wikipedia.org/wiki/Puglia" coords="329,269,358,249,435,328,391,310" shape="poly"
+	                                                        onmouseover="Mappuse(' È famosa per i villaggi collinari dal caratteristico intonaco bianco, per la campagna dal sapore antico e per le centinaia di chilometri di costa mediterranea. Il capoluogo, Bari, è una vivace città portuale e universitaria, mentre Lecce è conosciuta come la <b>Firenze del Sud</b> per via della sua architettura barocca.')">
+	                                                            <area target="_blank" alt="Campania" title="Campania" href="https://it.wikipedia.org/wiki/Campania"
+																onmouseover="Mappuse('La Campania è una città molto animata circondata da un ambiente naturale straordinario, con il famoso Monte Vesuvio grigio a forma di cono e le profonde acque blu del Golfo di Napoli. A sud, nella Costiera Amalfitana, si trovano cittadine colorate a tinte pastello come Positano, Amalfi e Ravello, incastonate tra le rocce e il mare.')" coords="295,282,347,328,331,270" shape="poly">
+	                                                                <area target="_blank" alt="Molise" title="Molise" href="https://it.wikipedia.org/wiki/Molise"
+																	onmouseover="Mappuse('Molise,  è noto per il Castello Monforte, situato su un monte, e per le chiese romaniche. A nord si trova l area archeologica di Pietrabbondante con un antico teatro e un tempio sannita.')" coords="325,249,303,273,333,274" shape="poly">
+	                                                                    <area target="_blank" alt="Lazio" title="Lazio" href="https://it.wikipedia.org/wiki/Lazio"
+																		onmouseover="Mappuse('Il lazio, Tra i suoi monumenti iconici si annovera il Colosseo, un anfiteatro che poteva ospitare migliaia di spettatori. Sulla costa, l antico porto di Ostia conserva ancora raffinati mosaici e un teatro. Nell entroterra si trovano le boscose montagne degli Appennini, con riserve naturali, laghi e paesini in pietra')" coords="230,234,276,233,301,280,272,281" shape="poly">
+	                                                                        <area target="_blank" alt="Abruzzo" title="Abruzzo" href="https://it.wikipedia.org/wiki/Abruzzo"
+																			onmouseover="Mappuse('Abruzzo,  La regione comprende anche paesini medievali e rinascimentali abbarbicati sulle colline. Il capoluogo di regione, L Aquila, è una città cinta da mura, danneggiata dal terremoto del 2009. La Costa dei Trabocchi, con calette di sabbia, prende il nome dai tradizionali pontili per la pesca.')" coords="282,229,290,264,322,256,300,218" shape="poly">
+	                                                                            <area target="_blank" alt="Umbria" title="Umbria" href="https://it.wikipedia.org/wiki/Umbria"
+																				onmouseover="Mappuse('L umbria,  è conosciuta per le città medievali in cima alle colline, i folti boschi e la cucina, in particolare i tartufi e il vino. Il capoluogo di regione, Perugia, sorge tra le colline e ospita il Palazzo dei Priori, sede della Galleria nazionale dell Umbria. Il cuore pulsante della città è il pedonale corso Vannucci.')" coords="250,188,245,229,283,230" shape="poly">
+	                                                                                <area target="_blank" alt="Marche" title="Marche" href="https://it.wikipedia.org/wiki/Marche"
+																					onmouseover="Mappuse('Le Marche, una zona caratterizzata da insenature sabbiose, scogliere calcaree e paesini medievali. Pesaro invece è la città natale del celebre compositore Rossini. Nell entroterra si trovano antiche fortificazioni in cima alle colline e le valli glaciali del Parco Nazionale dei Monti Sibillini. ')" coords="255,176,282,230,300,197" shape="poly">
+																					    <area target="_blank" alt="Toscana" title="Toscana"
+																						onmouseover="Mappuse('La Toscana, ospita alcune tra le opere di arte e architettura rinascimentale più famose al mondo, come il David di Michelangelo, le opere di Botticelli alla Galleria degli Uffizi e il Duomo. Il territorio della regione è variegato, e comprende gli aspri Appennini, le spiagge dell isola d'Elba nel mar Tirreno, gli oliveti e i vigneti del')" href="https://it.wikipedia.org/wiki/Toscana" coords="184,160,226,240,249,183" shape="poly">
+	                                                                                        <area target="_blank" alt="Liguria" title="Liguria"
+																							onmouseover="Mappuse('La Liguria, la sua costa mediterranea è nota come Riviera ligure. I 5 vivaci villaggi di pescatori delle Cinque Terre, così come le eleganti Portofino e Santa Margherita Ligure, si trovano sulla costa orientale o Riviera di Levante. La costa occidentale, la Riviera di Ponente, ospita Sanremo, una località antica con un casinò di inizio 900 e un lungomare fiorito.')" href="https://it.wikipedia.org/wiki/Liguria" coords="114,182,188,171,157,147" shape="poly">
+	                                                                                            <area target="_blank" alt="Piemonte" title="Piemonte"
+																									onmouseover="Mappuse('Il Piemonte, è conosciuta per la cucina raffinata e per i vini, come il Barolo. Il capoluogo è Torino, che offre numerosi esempi di architettura barocca e ospita la celebre Mole Antonelliana, con la sua guglia altissima. Il Museo dell Automobile di Torino è dedicato alla principale attività industriale della città, mentre il Museo Egizio espone collezioni archeologiche e antropologiche.')" href="https://it.wikipedia.org/wiki/Piemonte" coords="96,140,134,174,148,99" shape="poly">
+	                                                                                                    <area target="_blank" alt="Valle d'Aosta" title="Valle d'Aosta"
+																										onmouseover="Mappuse('La Valle D aosta,  Situata sulle Alpi occidentali, è nota per i picchi innevati del Cervino, del Monte Bianco, del Monte Rosa e del Gran Paradiso. Courmayeur e Cervinia sono tra i resort sciistici più importanti. La campagna della regione è disseminata di castelli e fortezze medievali, come il Castello di Fénis e il Castello di Verrès, risalenti al XIV secolo. ')" href="https://it.wikipedia.org/wiki/Valle_d%27Aosta" coords="101,95,130,115" shape="rect">
+	                                                                                                        <area target="_blank" alt="Emilia Romagna" title="Emilia Romagna"
+																											onmouseover="Mappuse('Emilio Romagna,  La regione è conosciuta per le città medievali, la ricca gastronomia e le località balneari. Il capoluogo, Bologna, è una città vivace, sede dell università risalente all XI secolo, caratterizzata dai portici lungo strade e piazze del centro medievale. Ravenna, sulla costa adriatica, è famosa per i suoi mosaici bizantini dai colori vivaci.')" href="https://it.wikipedia.org/wiki/Emilia-Romagna" coords="169,145,250,137,254,185" shape="poly">
+	                                                                                                            <area target="_blank" alt="Lombardia" title="Lombardia"
+																												onmouseover="Mappuse('La Lombardia, è un centro mondiale della moda e della finanza, con molti negozi e ristoranti di lusso. Il Duomo in stile gotico e la chiesa di Santa Maria delle Grazie, che ospita il dipinto L Ultima Cena di Leonardo da Vinci, testimoniano secoli di arte e cultura. A nord di Milano, il lago di Como è un elegante località prealpina con uno straordinario panorama. ')" href="https://it.wikipedia.org/wiki/Lombardia" coords="154,93,203,132" shape="rect">
+	                                                                                                                <area target="_blank" alt="Trentito Alto Adige"
+																													onmouseover="Mappuse('Il Trentino Alto Adige, È nota per i castelli medievali, come Castel Tirolo, Castel Roncolo e Castel d Appiano. La regione comprende parte delle Dolomiti, una sezione delle Alpi italiane conosciuta per le cime dentellate in pietra calcarea. Trento, il capoluogo della regione, ospita palazzi rinascimentali con facciate affrescate e il Castello del Buonconsiglio, sede di collezioni d arte.')" title="Trentito Alto Adige" href="https://it.wikipedia.org/wiki/Trentino-Alto_Adige" coords="205,64,217,104,253,53" shape="poly">
+	                                                                                                                    <area target="_blank" alt="Veneto" title="Veneto"
+																														onmouseover="Mappuse('Il Veneto,  è famosa per i canali, l architettura gotica e il carnevale. Per più di un millennio, tra i secoli VII e XVIII, il Veneto fece parte della potente Repubblica di Venezia. Vicino al Lago di Garda, un lago che bagna le Alpi, sorge Verona, la città medievale dove Shakespeare ambientò Giulietta e Romeo')" href="https://it.wikipedia.org/wiki/Veneto" coords="260,140,261,67,207,117" shape="poly">
+
+	                                                                                                                        <area target="_blank" alt="Friuli Venezia Giulia"
+																															onmouseover="Mappuse('Friuli Venezia Giulia, La regione ospita i picchi delle Dolomiti e i vigneti famosi per i vini bianchi. Trieste, il capoluogo, apparteneva in passato all Impero austro ungarico del XIX secolo. Le attrazioni più famose sono il centro storico, il lungomare di piazza dell Unità d Italia e il Castello di Miramare, una ex residenza reale.')" title="Friuli Venezia Giulia" href="https://it.wikipedia.org/wiki/Friuli-Venezia_Giulia" coords="263,70,293,103" shape="rect">
+                                </map>
+
+
+			<p id="mappatura" style="text-align:center; margin-top:55px; font-size:20px; "> Passa sopra col mouse nelle varie regioni per visualizzare delle informazioni sulle vari regioni d'Italia. </p>
+
+
+
+						</article>
+
+
+
+			                        <article class="Articol_4">
+
+									   <br>
+
+									         <h1 style="color:crimson; font-size:38px; margin-left:445px;"> Ecco vari esempi di città da poter scegliere. </h1>
+
+									            <img src="Mare.jpg" id="image" width="300" onmouseover="this.width=500 " onmouseout="this.width=300" class="ImmagineScroll">
+
+													<br><br><br><br><br><br>
+												<h1 style="text-align:center; font-size:30px;"> <i style="color:dodgerblue"> Warning: </i> A causa dell'emergenza della pandemia alcuni paesi sono inaccessibili al momento.
+												                       E' consigliato inforarsi prima di dover prenotare il volo.</h1>
+
+									</article>
+
+
+
+				<footer id="Footer">
+
+				<table border="0">
+
+				    <tr>
+
+					    <td  style="width:49%;">
+				            <h4 class="diritti-riservati"> &#9940; 2021 &copy; Flight. Tutti i diritti sono riservati </h4>
+						</td>
+
+						<td>
+						    <a href="1" id="Link"> Termini generali e condizioni di trasforto </a>
+						</td>
+
+						<td style="width:13%;">
+						     <a href="2" id="Link"> Termini d'uso </a>
+						</td>
+
+						<td>
+						     <a href="3" id="Link"> Informazioni sulla privacy </a>
+						</td>
+
+						<td>
+						     <a href="4" id="Link"> Coockie preferenze </a>
+						</td>
+
+				    </tr>
+
+				</table>
+
+
+				            <table border="0">
+
+				                <tr>
+
+								    <td> <img src="Pagamenti-sicuri.png" alt="Pagamenti in modo sicuro" style="height:70px; width:352px;"  />
+
+									</td>
+
+									<td> Alla tua prenotazione potrà essere applicata una commissione per il pagamento con carta di credito.
+									     La commissione verrà applicata al prezzo totale una volta inserito nel numero della carta.
+										 Consulta i nostri <a href="5"> Termini e condizioni generali di trasporto </a> per ulteriori dettagli.
+									</td>
+
+								</tr>
+
+							</table>
+
+
+						                <h2 style="margin-left:650px;"> Contattaci </h2>
+
+				                                                  <table border="0" style="margin-left:550px;">   <p id="Servizio clienti"> </p>
+
+				                                                        <tr>
+
+				                                                            <td> <a href="tel:388794561" id="Contatti"> Numero di telefono </a> </td>
+				                                                            <td> <a style="color:crimson" href="mailto:First-flight@gmail.com" id="Contatti"> Email per contatti </a> </td>
+
+				                                                        </tr>
+
+
+							                                      </table>
+
+
+				</footer>
+
+
+	</section>
+
+
+
+
+
+
+</body>
+</html>
