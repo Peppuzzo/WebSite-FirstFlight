@@ -36,14 +36,13 @@ Siamo qui per aiutarti! Se hai domande o hai bisogno di assistenza, non esitare 
 
 ## 📲 Contatti con l'intera Italia
 
-Grazie a un apposito script, il nostro sito ti permette di avere contatti con tutta l'Italia. Che tu stia pianificando un viaggio nazionale o internazionale, siamo qui per connetterti con le risorse di cui hai bisogno.
+Grazie a un apposito script, il nostro sito ti permette di avere informazioni con ogni parte di Italia. Che tu stia pianificando un viaggio nazionale o internazionale, siamo qui per connetterti con le risorse di cui hai bisogno.
 
 ## 📌 Contatti
 
 Se vuoi saperne di più su come pianificare i tuoi viaggi o hai domande, non esitare a contattarci!
 
 📧 Email: giuseppe.43g@libero.it 
-🌐 Sito web: [Travel Website](http://www.travel-website.com)
 
 ---
 
