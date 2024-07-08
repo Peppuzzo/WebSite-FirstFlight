@@ -1,0 +1,86 @@
+function Prima_Funzione(){
+
+	    alert("Buongiorno! Benvenuto nel nostro sito di volo.");
+
+    }
+
+	    function VisualizzaTesto(testo){
+
+	        document.getElementById("Descrizione").innerHTML=testo;
+
+	    }
+
+
+		function TestoMadrid(testo){
+
+            document.getElementById("Scritta").innerHTML=testo;
+
+		}
+
+		function TestoParigi(testo){
+
+		    document.getElementById("TestoP").innerHTML=testo;
+
+
+		}
+
+		function TestoLondra(testo) {
+
+		    document.getElementById("TestoLondon").innerHTML=testo;
+
+
+		}
+
+		function TestoG(testo) {
+
+		    document.getElementById("IdGiappone").innerHTML=testo;
+
+		}
+
+		function TestoRoma(testo) {
+
+		    document.getElementById("TestoRome").innerHTML=testo;
+
+		}
+
+		    function Mappuse(testo){
+
+			    document.getElementById("mappatura").innerHTML=testo;
+
+			}
+
+			    function Saluto() {
+
+                var d = new Date();
+                var h = d.getHours();
+                    if (h < 12)
+	                    document.write("Buongiorno!")
+                    else
+	                if (h < 17)
+		                document.write("Buon pomeriggio!")
+                    else
+		                document.write("Buonasera!");
+                    }
+
+
+
+                        var foto=new Array();
+
+                            foto[0]="Rio.jpg";
+                            foto[1]="Helsinki.jpg";
+                            foto[2]="Stoccolma.jpg";
+                            foto[3]="Liverpool2.jpg";
+                            foto[4]="Barcellona.jpg";
+
+
+                        var i=0;
+
+                            function avanti(){
+                                if (i<foto.length-1)
+                                    i++;
+                                else
+                                    i=0;
+                                document.getElementById("image").src=foto[i];
+
+		                        setTimeout("avanti()",1500);
+	                            }
