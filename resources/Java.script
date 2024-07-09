@@ -66,11 +66,11 @@ function Prima_Funzione(){
 
                         var foto=new Array();
 
-                            foto[0]="Rio.jpg";
-                            foto[1]="Helsinki.jpg";
-                            foto[2]="Stoccolma.jpg";
-                            foto[3]="Liverpool2.jpg";
-                            foto[4]="Barcellona.jpg";
+                            foto[0]="images/imageScript/Rio.jpg";
+                            foto[1]="images/imageScript/Helsinki.jpg";
+                            foto[2]="images/imageScript/Stoccolma.jpg";
+                            foto[3]="images/imageScript/Liverpool2.jpg";
+                            foto[4]="images/imageScript/Barcellona.jpg";
 
 
                         var i=0;
