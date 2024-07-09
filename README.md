@@ -1,6 +1,6 @@
 # 🛫 Sito Web di Viaggi 🌍
 
-![Flight](volo.jpg)
+![Flight](images/imagesDiv/volo.jpg)
 
 
 Questo sito web è stato sviluppato utilizzando **HTML**, **JavaScript** e **CSS** per offrire un'esperienza interattiva e user-friendly agli utenti. Scopri il mondo e pianifica i tuoi viaggi con facilità!
