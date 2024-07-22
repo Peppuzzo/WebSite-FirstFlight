@@ -3,7 +3,7 @@
 ![Flight](images/imagesDiv/volo.jpg)
 
 
-Questo sito web è stato sviluppato utilizzando **HTML**, **JavaScript** e **CSS** per offrire un'esperienza interattiva e user-friendly agli utenti. Scopri il mondo e pianifica i tuoi viaggi con facilità!
+Questo sito web è stato sviluppato utilizzando **HTML**, **JavaScript** e **CSS** per un compito assegnato in classe alle superiori. Serve per offrire un'esperienza interattiva e user-friendly agli utenti. Scopri il mondo e pianifica i tuoi viaggi con facilità!
 
 <h2> Per iniziare </h2>
 
