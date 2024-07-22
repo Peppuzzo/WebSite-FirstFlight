@@ -5,6 +5,13 @@
 
 Questo sito web è stato sviluppato utilizzando **HTML**, **JavaScript** e **CSS** per offrire un'esperienza interattiva e user-friendly agli utenti. Scopri il mondo e pianifica i tuoi viaggi con facilità!
 
+<h2> Per iniziare </h2>
+
+<li>
+  <ul> <> code -> Doenload zip -> estrai tutto il contenuto sul proprio Desktop -> apri il file "Progetto 2.html"</ul>
+  <uL> Assicurati di avere scaricato <b> git </b> sul proprio S.O. -> clona la cartella sul Desktop -> apri il file "Progetto 2.html"</uL>
+</li>
+
 
 ## 🏖️ Introduzione
 
@@ -40,12 +47,12 @@ Grazie a un apposito script, il nostro sito ti permette di avere informazioni co
 
 ## 📌 Contatti
 
-Se vuoi saperne di più su come pianificare i tuoi viaggi o hai domande, non esitare a contattarci!
+Se vuoi saperne di più o hai domande, non esitare a contattarmi!
 
 📧 Email: giuseppe.43g@libero.it 
 
 ---
 
-🌟 Speriamo che questo sito ti ispiri a scoprire il mondo e pianificare viaggi indimenticabili! 🌟
+🌟 Speriamo che questo sito ti piaciuto e ti ispiri per webSite futuri! 🌟
 
 
