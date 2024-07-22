@@ -12,7 +12,7 @@ Questo sito web è stato sviluppato utilizzando **HTML**, **JavaScript** e **CSS
   <ul> Assicurati di avere scaricato <b> git </b> sul proprio S.O. -> clona la cartella sul Desktop -> apri il file "Progetto 2.html"</uL>
 </li>
 
-</hr>
+---
 
 ## 🏖️ Introduzione
 
